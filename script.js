@@ -7,7 +7,7 @@ const blogPosts = [
         category: "lifestyle",
         date: "26 February 2025",
         author: "Ican",
-        image: "/ican-1.jpg",
+        image: "ican-1.jpg",
         content: `
             <h3>Tentang Saya</h3>
             <p>Yap nama gua Rasya Ikhsan Firdaus biasa dipanggil Ican atau Aca , gua adalah seorang Siswa Kelas 11 di salah satu sekolah di bandar lampung tepatnya di SMAN 7 Bandar Lampung, </p>
@@ -26,7 +26,7 @@ const blogPosts = [
         category: "lifestyle",
         date: "12 Januari 2022",
         author: "Ican",
-        image: "/ican-2.jpg",
+        image: "ican-2.jpg",
         content: `
             <h3>Impian</h3>
             <p>impian yaa , yah ini cukup berat sih bagi gua untuk di bahas, cita cita gua itu awalnya adalah 
@@ -76,7 +76,7 @@ belajar backend
         category: "lifestyle",
         date: "2 July 2025",
         author: "Ican",
-        image: "/ican-3.jpg",
+        image: "ican-3.jpg",
         content: `
             <h3>kegalauan</h3>
             <p>Seperti yang kalian tau Cita cita gw itu menjadi Full stack developer , tapi saat itu gw masih SMP kelas 7 , dan saat itu
