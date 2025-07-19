@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blograsya - Blog Personal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h2>blograsya</h2>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">Tentang</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Kontak</a>
+                    </li>
+                </ul>
+                <div class="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Selamat Datang Di Blognya Rasya</h1>
+                    <p class="hero-description">Tempat Rasya berbagi pemikiran, pengalaman, dan pengetahuan tentang teknologi, kehidupan, dan hal-hal menarik lainnya.</p>
+                    <a href="#blog" class="hero-btn">Mulai Membaca</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Search and Filter -->
+        <section class="search-section">
+            <div class="container">
+                <div class="search-container">
+                    <input type="text" id="searchInput" placeholder="Cari artikel..." class="search-input">
+                    <div class="filter-buttons">
+                        <button class="filter-btn active" data-category="all">Semua</button>
+                        <button class="filter-btn" data-category="teknologi">Teknologi</button>
+                        <button class="filter-btn" data-category="lifestyle">Lifestyle</button>
+                        <button class="filter-btn" data-category="tutorial">Tutorial</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Posts -->
+        <section id="blog" class="blog-section">
+            <div class="container">
+                <h2 class="section-title">Artikel Terbaru</h2>
+                <div class="blog-grid" id="blogGrid">
+                    <!-- Blog posts will be dynamically loaded here -->
+                </div>
+                <div class="load-more-container">
+                    <button id="loadMoreBtn" class="load-more-btn">Muat Lebih Banyak</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2 class="section-title">Tentang Blog Ini</h2>
+                <div class="about-content">
+                    <p>Blog ini adalah tempat gua berbagi pemikiran dan pengalaman sehari-hari. Mulai dari tips teknologi, review produk, hingga cerita perjalanan hidup. Saya berharap tulisan-tulisan di sini bisa memberikan manfaat dan inspirasi bagi pembaca (rencananya sih gitu).</p>
+                    <p>Jangan ragu untuk meninggalkan komentar atau menghubungi saya jika ada pertanyaan atau saran. Selamat membaca!</p>
+                    <p>btw ini gua buat cuman sehari jadi , maaf kalo jelek </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2 class="section-title">Hubungi Saya</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <h3>Email</h3>
+                            <p>rasyaikhsanf@gmail.com</p>
+                        </div>
+                        <div class="contact-item">
+                            <h3>Social Media</h3>
+                            <div class="social-links">
+                                <a href="https://wa.link/c7bw0c" class="social-link">Whatsapp</a>
+                                <a href="https://www.instagram.com/youungsirr?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="social-link">Instagram</a>
+                                <a href="#" class="social-link">LinkedIn</a>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Nama" required class="form-input">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email" required class="form-input">
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Pesan" rows="5" required class="form-textarea"></textarea>
+                        </div>
+                        <button type="submit" class="form-submit">Kirim Pesan</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2021 Blograsya. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#" class="footer-link">Privacy Policy</a>
+                    <a href="#" class="footer-link">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Article Modal -->
+    <div id="articleModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modalBody">
+                <!-- Article content will be loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
