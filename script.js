@@ -310,7 +310,7 @@ Jadi, kalau lo suka mecahin masalah, suka sama data, atau pengen bikin program c
     </p> `
     },
       {
-        id: 6,
+        id: 7,
         title: "Perjalanan Selanjutnya",
         excerpt: " Jadi tanggal 25 mei kemaren gw ikut UTBK.",
         category: "lifestyle",
@@ -324,7 +324,7 @@ Jadi, kalau lo suka mecahin masalah, suka sama data, atau pengen bikin program c
 <p>jadi akhirnya gw taro ITERA aja di pilihan pertama yang realistis buat skor to gw yang ampas ini , 
 sedangkan pilihan keduanya UNILA kalo dibilang kecewa sih iyaa karena ITS kan impian gw dari SMP tapi yasudahlah dapet ITERA aja alhamdulillah bersyukur aja masih bisa masuk PTN lewat jalur UTBK</p>
            `
-    },
+    }
     
     
 ];
