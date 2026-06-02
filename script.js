@@ -319,10 +319,12 @@ Jadi, kalau lo suka mecahin masalah, suka sama data, atau pengen bikin program c
         image: "img/hasil-utbk.png",
         content: `
             <h3>Perjalanan Selanjutnya</h3>
-            <p>Jadi kemaren tanggal 25 mei gw ikut UTBK yaitu ujian buat masuk PTN gitu,alhamdulilah sih keterima itera tapi kalo kalian baca blog gua sebelumnya pas smp kelas 9 kan gw pengennya masuk ITS <b>nah kenapa kok ga milih ITS?</b>soo jadi gw minder karena pas to nilai gw nyampe kepala 6 aja jarang" sedangkan passing grade its aja 700an semua apalagi untuk Teknik Infromatika yang salah satu jurusan favorite disana kan bisa meninggal gw</p>
-<p>jadi akhirnya gw taro ITERA aja di pilihan pertama yang realistis buat skor to gw yang ampas ini , sedangkan pilihan keduanya UNILA kalo dibilang kecewa sih iyaa karena ITS kan impian gw dari SMP tapi yasudahlah dapet ITERA aja alhamdulillah bersyukur aja masih bisa masuk PTN lewat jalur UTBK</p>
+            <p>Jadi kemaren tanggal 25 mei gw ikut UTBK yaitu ujian buat masuk PTN gitu,alhamdulilah 
+            sih keterima itera tapi kalo kalian baca blog gua sebelumnya pas smp kelas 9 kan gw pengennya masuk ITS <b>nah kenapa kok ga milih ITS?</b>soo jadi gw minder karena pas to nilai gw nyampe kepala 6 aja jarang" sedangkan passing grade its aja 700an semua apalagi untuk Teknik Infromatika yang salah satu jurusan favorite disana kan bisa meninggal gw</p>
+<p>jadi akhirnya gw taro ITERA aja di pilihan pertama yang realistis buat skor to gw yang ampas ini , 
+sedangkan pilihan keduanya UNILA kalo dibilang kecewa sih iyaa karena ITS kan impian gw dari SMP tapi yasudahlah dapet ITERA aja alhamdulillah bersyukur aja masih bisa masuk PTN lewat jalur UTBK</p>
            `
-    }
+    },
     
     
 ];
