@@ -6,10 +6,11 @@
     <title>Blograsya - Blog Personal</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@400;500;600;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
+
     <!-- Header -->
     <header class="header">
         <nav class="nav">
@@ -28,7 +29,7 @@
                         <a href="#contact" class="nav-link">Kontak</a>
                     </li>
                 </ul>
-                <div class="nav-toggle">
+                <div class="nav-toggle" id="navToggle">
                     <span class="bar"></span>
                     <span class="bar"></span>
                     <span class="bar"></span>
@@ -39,13 +40,14 @@
 
     <!-- Main Content -->
     <main class="main">
+
         <!-- Hero Section -->
         <section id="home" class="hero">
             <div class="container">
                 <div class="hero-content">
                     <h1 class="hero-title">Selamat Datang Di Blognya Rasya</h1>
                     <p class="hero-description">Tempat Rasya berbagi pemikiran, pengalaman, dan pengetahuan tentang teknologi, kehidupan, dan hal-hal menarik lainnya.</p>
-                    <a href="#blog" class="hero-btn">Mulai Membaca</a>
+                    <a href="#blog" class="hero-btn">Mulai Membaca →</a>
                 </div>
             </div>
         </section>
@@ -54,7 +56,7 @@
         <section class="search-section">
             <div class="container">
                 <div class="search-container">
-                    <input type="text" id="searchInput" placeholder="Cari artikel..." class="search-input">
+                    <input type="text" id="searchInput" placeholder="// cari artikel..." class="search-input">
                     <div class="filter-buttons">
                         <button class="filter-btn active" data-category="all">Semua</button>
                         <button class="filter-btn" data-category="teknologi">Teknologi</button>
@@ -73,7 +75,7 @@
                     <!-- Blog posts will be dynamically loaded here -->
                 </div>
                 <div class="load-more-container">
-                    <button id="loadMoreBtn" class="load-more-btn">Muat Lebih Banyak</button>
+                    <button id="loadMoreBtn" class="load-more-btn">Muat Lebih Banyak ↓</button>
                 </div>
             </div>
         </section>
@@ -85,7 +87,7 @@
                 <div class="about-content">
                     <p>Blog ini adalah tempat gua berbagi pemikiran dan pengalaman sehari-hari. Mulai dari tips teknologi, review produk, hingga cerita perjalanan hidup. Saya berharap tulisan-tulisan di sini bisa memberikan manfaat dan inspirasi bagi pembaca (rencananya sih gitu).</p>
                     <p>Jangan ragu untuk meninggalkan komentar atau menghubungi saya jika ada pertanyaan atau saran. Selamat membaca!</p>
-                    <p>btw ini gua buat cuman sehari jadi , maaf kalo jelek </p>
+                    <p>btw ini gua buat cuman sehari jadi , maaf kalo jelek</p>
                 </div>
             </div>
         </section>
@@ -103,23 +105,23 @@
                         <div class="contact-item">
                             <h3>Social Media</h3>
                             <div class="social-links">
-                                <a href="https://wa.link/c7bw0c" class="social-link">Whatsapp</a>
-                                <a href="https://www.instagram.com/youungsirr?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="social-link">Instagram</a>
+                                <a href="https://wa.link/c7bw0c" class="social-link">WA</a>
+                                <a href="https://www.instagram.com/youungsirr?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="social-link">IG</a>
                                 <a href="#" class="social-link">LinkedIn</a>
                             </div>
                         </div>
                     </div>
-                    <form class="contact-form">
+                    <form class="contact-form" id="contactForm">
                         <div class="form-group">
-                            <input type="text" placeholder="Nama" required class="form-input">
+                            <input type="text" placeholder="Nama kamu siapa?" required class="form-input">
                         </div>
                         <div class="form-group">
-                            <input type="email" placeholder="Email" required class="form-input">
+                            <input type="email" placeholder="Email kamu?" required class="form-input">
                         </div>
                         <div class="form-group">
-                            <textarea placeholder="Pesan" rows="5" required class="form-textarea"></textarea>
+                            <textarea placeholder="Mau ngomong apa?" rows="5" required class="form-textarea"></textarea>
                         </div>
-                        <button type="submit" class="form-submit">Kirim Pesan</button>
+                        <button type="submit" class="form-submit">Kirim Pesan →</button>
                     </form>
                 </div>
             </div>
@@ -130,10 +132,10 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <p>&copy; 2021 Blograsya. All rights reserved.</p>
+                <p>&copy; 2024 Blograsya. All rights reserved.</p>
                 <div class="footer-links">
-                    <a href="#" class="footer-link">Privacy Policy</a>
-                    <a href="#" class="footer-link">Terms of Service</a>
+                    <a href="#" class="footer-link">Privacy</a>
+                    <a href="#" class="footer-link">Terms</a>
                 </div>
             </div>
         </div>
@@ -142,7 +144,7 @@
     <!-- Article Modal -->
     <div id="articleModal" class="modal">
         <div class="modal-content">
-            <span class="close">&times;</span>
+            <span class="close" id="closeModal">&times;</span>
             <div id="modalBody">
                 <!-- Article content will be loaded here -->
             </div>
