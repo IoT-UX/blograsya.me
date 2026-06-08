@@ -332,7 +332,7 @@ sedangkan pilihan keduanya UNILA kalo dibilang kecewa sih iyaa karena ITS kan im
         category: "lifestyle",
         date: "09 Juni 2026",
         author: "Ican",
-        image: "img/tamasya-",
+        image: "img/tamasya-.jpg",
         content: `
             <h3>Patah Hati</h3>
             <p>gw dan talitha resmi selesai....yaa sebenarnya ga hari ini juga putusnya udah 
@@ -354,7 +354,7 @@ ini egois tapi aku juga manusiaa , sama satu lagi semangat yaa di unpadnyaa jaga
 putri juga walaupun aku gapernah ketemu dia, pokoknya sukses selalu kaliann </p>       
 <p>pokoknya aku ngetik dan publish blog ini kita itu masih chatan tapi ga intens , aku gatau apa yang terjadi pada kamu 
 tapi setiap aku ngechat kamu balesnya 6 jam sekali hehehe.. tapi gapapa mungkin kamu sibuk dan aku juga sadar kalo kita bukan apa-apa lagi 
-semogaaa kita masih teru chatan yaa yang penting kamu bales aja aku udah seneng bangettt</p>    `
+semogaaa kita masih terus chatan yaa yang penting kamu bales aja aku udah seneng bangettt</p>    `
     }
     
     
