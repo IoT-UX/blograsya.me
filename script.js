@@ -314,7 +314,7 @@ Jadi, kalau lo suka mecahin masalah, suka sama data, atau pengen bikin program c
         title: "Perjalanan Selanjutnya",
         excerpt: " Jadi tanggal 25 mei kemaren gw ikut UTBK.",
         category: "lifestyle",
-        date: "26 Juni 2026",
+        date: "26 Mei 2026",
         author: "Ican",
         image: "img/hasil-utbk.png",
         content: `
@@ -324,6 +324,37 @@ Jadi, kalau lo suka mecahin masalah, suka sama data, atau pengen bikin program c
 <p>jadi akhirnya gw taro ITERA aja di pilihan pertama yang realistis buat skor to gw yang ampas ini , 
 sedangkan pilihan keduanya UNILA kalo dibilang kecewa sih iyaa karena ITS kan impian gw dari SMP tapi yasudahlah dapet ITERA aja alhamdulillah bersyukur aja masih bisa masuk PTN lewat jalur UTBK</p>
            `
+    },
+    {
+        id: 8,
+        title: "Patah Hati",
+        excerpt: " gw dan talitha resmi selesai.",
+        category: "lifestyle",
+        date: "09 Juni 2026",
+        author: "Ican",
+        image: "img/tamasya-",
+        content: `
+            <h3>Patah Hati</h3>
+            <p>gw dan talitha resmi selesai....yaa sebenarnya ga hari ini juga putusnya udah 
+            sekitar satu setengah bulan lalu lah ,kami putus secara baik-baik mungkin karena tidak cocok aja 
+            tapi walau begitu di lubuk hati terdalam gw masih berharap buat sama dia lagi tapi sepertinya memang gabisa 
+            masanya udah abis juga.. sumpah gw kangen banget sama dia dan smanjuh pokoknya tiap ke tujuh yang di inget cuman Talitha Zahira emang kayaknya 
+            kehidupan sekolah gw abis di dia, pokonya kegiatan gw pas istirahat kedua pasti ke kelas dia buat jemput dia 
+            abistuh nganterin dia ke sekret paskib kadang kalo dia kebelet papang (buang air kecil) gw nungguin dia ke WC dulu 
+            dan setiap gw nunggu di WC pasti kayak orang gila diliatin adek" kelas kayak "ngapain sih abang itu di depan wc cewe" 
+            nah abis dari wc lanjut ke sekret paskib kadang juga ke koperasi dulu beli jajan setelah sampe di sekret paskib, gw nungguin sekaligus jagain dia wudhu dan entah apa fungsinnya 
+            setelah dia wudhu gw berpamitan untuk bermain bersama teman dan dia sholat , lalu setelah bermain bersama teman dan 
+            bel selesai istirahat berbunyi gw pasti langsung bergegas ke sekret untuk nganterin dia ke kelas , pokoknya begitu aja kami di sekolah 
+          </p>
+<p>pokoknya gw ma dia itu pacarannya sewajarnya ajaa ga yang begitu banget ala ala anak sma tapi romance nya tetep ga ketinggalan 
+kalo ada best couple di 7 udah jelas pasti kami pemenangnya , gak ada yang ga tau Talitha Rasya................Talithaa kalo kamu baca ini suatu saat nanti 
+aku mau bilang : sampai kapanpun aku akan masih sayang kamu bahkan jika aku punya pasangan baru , you are my world you are everything gada lagi wanita sehebat kamu 
+di mata aku ,ahh kan jadi nangis ngetiknyaa jujur aku gamau kamu punya pacar selain aku aku mau kamu setidaknya gabisa lupain aku sampe 30 tahun ,aku tau 
+ini egois tapi aku juga manusiaa , sama satu lagi semangat yaa di unpadnyaa jaga diri kamu baik-baik jangan aneh-aneh(hihii) aku bangga banget sama kamu dan akan begitu seterusnya , salam buat mamah papah kamu "om tante makasih udah izinin anaknya yang hebat ini pacaran sama rasya....kak 
+putri juga walaupun aku gapernah ketemu dia, pokoknya sukses selalu kaliann </p>       
+<p>pokoknya aku ngetik dan publish blog ini kita itu masih chatan tapi ga intens , aku gatau apa yang terjadi pada kamu 
+tapi setiap aku ngechat kamu balesnya 6 jam sekali hehehe.. tapi gapapa mungkin kamu sibuk dan aku juga sadar kalo kita bukan apa-apa lagi 
+semogaaa kita masih teru chatan yaa yang penting kamu bales aja aku udah seneng bangettt</p>    `
     }
     
     
