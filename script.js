@@ -1,3 +1,4 @@
+
 // ===== BLOG DATA =====
 const blogPosts = [
     {
